@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/edit_Login_Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="昵称:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edit_Register_username"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text_bg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_Login_Sex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_Login_Name"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        >
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="性别:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/blue_700"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_girl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="女生"
+                android:textSize="18dp"
+                android:textColorHint="@color/blue_700"
+                android:textColor="@color/black"
+                android:onClick="onRadioButtonClicked" />
+
+            <RadioButton
+                android:id="@+id/radio_boy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="男生"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/blue_700"
+                android:onClick="onRadioButtonClicked" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tip_Login_Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_Login_Sex"
+        android:layout_centerHorizontal="true"
+        android:text="*可在我的设置中修改"
+        android:textSize="16dp"
+        android:textColor="@color/text_gray"/>
+
+    <Button
+        android:id="@+id/button_Register_register"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tip_Login_Sex"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="确认"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+
+
+
+
+
+</RelativeLayout>

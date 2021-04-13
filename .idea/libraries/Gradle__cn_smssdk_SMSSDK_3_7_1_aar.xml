@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.smssdk:SMSSDK:3.7.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7453d86d534aa667034061d90923b397/jetified-SMSSDK-3.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7453d86d534aa667034061d90923b397/jetified-SMSSDK-3.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7453d86d534aa667034061d90923b397/jetified-SMSSDK-3.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef1c4414dea0a2e71930b562e0283300/jetified-SMSSDK-3.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef1c4414dea0a2e71930b562e0283300/jetified-SMSSDK-3.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef1c4414dea0a2e71930b562e0283300/jetified-SMSSDK-3.7.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
